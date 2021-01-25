@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import db from '../db.json';
 import Widget from '../src/components/Widget'
+import Head from 'next/head'
 // import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
@@ -25,8 +26,20 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-  return (
+  return (   
+    <>
+      <Head>
+        <meta property="og:url" content={db.url} />
+        <meta property="og:title" content={db.title} />
+        <meta property="og:description" content={db.description} />
+
+        <meta property="og:image" content={db.bg} />
+      </Head>
+
+  
     <QuizBackground backgroundImage={db.bg}>
+      <meta property="og:description" content={db.description} />
+       <meta property="og:image" content={db.bg} />
       <QuizContainer>
         {/* <QuizLogo /> */}
         <Widget>
@@ -49,5 +62,7 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
+
+    </>
   );
 }
