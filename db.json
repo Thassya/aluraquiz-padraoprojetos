@@ -3,7 +3,20 @@
     "title": "Quiz Padrão de Projetos",
     "url": "https://quiz-padrao-projetos.thassya.vercel.app/",
     "description": "Teste seus conhecimentos em padrões de projetos! Aprenda de forma dinâmica.",
-    "questions": "",
+    "questions": [
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": "Como fazer um seletor por id via CSS?",
+            "description": "Essa é pra aquecer",
+            "answer": 2,
+            "alternatives": [
+                ".elemento",
+                "*elemento",
+                "#elemento",
+                "%elemento"
+            ]
+        }
+    ],
     "external": "",
     "theme":{
         "colors": {
