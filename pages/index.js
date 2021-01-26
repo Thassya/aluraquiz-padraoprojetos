@@ -1,11 +1,12 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 import db from '../db.json';
-import Widget from '../src/components/Widget'
-import Head from 'next/head'
+import Widget from '../src/components/Widget';
+
 // import QuizLogo from '../src/components/QuizLogo'
-import QuizBackground from '../src/components/QuizBackground'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -26,17 +27,7 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-  return (   
-    <>
-      <Head>
-        <meta property="og:url" content={db.url} />
-        <meta property="og:title" content={db.title} />
-        <meta property="og:description" content={db.description} />
-
-        <meta property="og:image" content={db.bg} />
-      </Head>
-
-  
+  return (        
     <QuizBackground backgroundImage={db.bg}>
       <meta property="og:description" content={db.description} />
        <meta property="og:image" content={db.bg} />
@@ -62,7 +53,5 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
     </QuizBackground>
-
-    </>
   );
 }
