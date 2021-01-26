@@ -18,6 +18,22 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
+  input{
+    width:100%;
+    margin: 30px 0;
+    display: block;
+  }
+  button {
+    text-align: center;
+    margin: 5px 0;
+    border: 1px solid black; 
+    padding: 14px 40px;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    background-color: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.mainBg};
+  }
 `;
 
 Widget.Header = styled.header`
@@ -46,5 +62,7 @@ Widget.Content = styled.div`
     padding: 0;
   }
 `;
+
+
 
 export default Widget;
