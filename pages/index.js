@@ -8,13 +8,8 @@ import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
 
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -47,12 +42,12 @@ export default function Home() {
               event.preventDefault(); //não recarrega
               router.push(`/quiz?name=${name}`);
             }}>
-              <input placeholder="sua graça... " 
-                onChange={function(evento){
-                // console.log(evento.target.value);
-                setName(evento.target.value);
-
-              }} />
+              <Input 
+                name="nomeDoUsuario"
+                placeholder="sua graça... " 
+                onChange={(evento)=> { setName(evento.target.value) }}
+                value={name}
+                />
               <button type="submit" disabled={name.length===0 }> 
                 Jogar {name} 
               </button>
