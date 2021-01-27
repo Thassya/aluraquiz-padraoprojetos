@@ -5,27 +5,89 @@
     "description": "Teste seus conhecimentos em padrões de projetos! Aprenda de forma dinâmica.",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
+            "image": "https://media.giphy.com/media/JOjqPAASGZiZ4ZoaIL/giphy.gif",
+            "title": "A programação reativa, abordagem que está em crescente adoção para o desenvolvimento de aplicações Web e Mobile, tem seu principal conceito centrado em um padrão de projeto. Assinale a alternativa que identifica esse padrão.",
             "description": "Essa é pra aquecer",
             "answer": 2,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Adapter",
+                "Observer ",
+                "Façade",
+                "Singleton"
+            ]
+        },        
+        {
+            "image": "https://picsum.photos/id/1010/500/300",
+            "title": "Os padrões de projeto (Design Patterns) são classificados nas categorias:",
+            "description": "Tá esquentando",
+            "answer": 4,
+            "alternatives": [
+                "Situacional. Estrutural. Complementar.",
+                "Criacional. Evolutiva. Contingencial.",
+                "Compartimental. Vinculada. Comportamental",
+                "Criacional. Estrutural. Comportamental."
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/101/500/300",
+            "title": "Assinale a alternativa que apresenta somente padrões estruturais",
+            "description": "Um tiquinho a mais...",
+            "answer": 4,
+            "alternatives": [
+                "Adapter, Bridge, Command, Decorator e Template.",
+                "Adapter, Command, Flyweight, Observer e Proxy.",
+                "Composite, Decorator, Singleton, Template e Proxy.",
+                "Bridge, Composite, Decorator, Facade e Proxy."
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/1015/500/300",
+            "title": "Qual padrão não é classificado como Estrutural? ",
+            "description": "Tá melhorando",
+            "answer": 4,
+            "alternatives": [
+                "Bridge",
+                "Proxy",
+                "Facade ",
+                "Chain of Responsibility"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/1025/500/300",
+            "title": "Qual padrão não é classificado como Criacional? ",
+            "description": "Tá melhorando",
+            "answer": 2,
+            "alternatives": [
+                "Abstract Factory",
+                "State",
+                "Prototype",
+                "Singleton"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/103/500/300",
+            "title": "Qual padrão não é classificado como Comportamental?",
+            "description": "Tá melhorando",
+            "answer": 3,
+            "alternatives": [
+                "State",
+                "Strategy",
+                "Bridge",
+                "Interpreter"
             ]
         }
     ],
-    "external": "",
+    "external": [
+        ""
+    ],
     "theme":{
         "colors": {
-            "primary": "#1D3461",
-            "secondary":"#1F487E",
-            "mainBg": "#f5f5f5",
-            "contrastText": "#605F5E",
-            "wrong": "#f44336",
-            "success": "#4caf50"
+            "primary": "#0d47a1",
+            "secondary":"#29b6f6",
+            "mainBg": "#171B35",
+            "contrastText": "#fff",
+            "wrong": "#FF5722",
+            "success": "#4CAF50"
         },
         "borderRadius": "4px"
     }

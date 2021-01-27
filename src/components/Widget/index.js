@@ -18,22 +18,6 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
-  input{
-    width:100%;
-    margin: 30px 0;
-    display: block;
-  }
-  button {
-    text-align: center;
-    margin: 5px 0;
-    border: 1px solid black; 
-    padding: 14px 40px;
-    border-radius: 3px;
-    display: block;
-    width: 100%;
-    background-color: ${({ theme }) => theme.colors.secondary};
-    color: ${({ theme }) => theme.colors.mainBg};
-  }
 `;
 
 Widget.Header = styled.header`
@@ -42,7 +26,6 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
-  color:#FFF;
   
   * {
     margin: 0;
@@ -63,6 +46,22 @@ Widget.Content = styled.div`
   }
 `;
 
-
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+`;
 
 export default Widget;
