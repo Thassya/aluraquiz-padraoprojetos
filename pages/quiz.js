@@ -2,9 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 
-import QuizBackground from '../src/components/QuizBackground';
-import Widget from '../src/components/Widget';
 import db from '../db.json';
+import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo'
+import QuizBackground from '../src/components/QuizBackground';
+import QuizContainer from '../src/components/QuizContainer';
+import Button from '../src/components/Button';
+
 
 export const QuizContainer = styled.div`
   width: 100%;
