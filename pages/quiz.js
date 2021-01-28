@@ -1,4 +1,6 @@
 import React from 'react';
+import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -21,6 +23,8 @@ function LoadingWidget(){
 }
 
 function ResultWidget({ results }) {
+  const router = useRouter();
+
   return (
     <Widget>
       <Widget.Header>
@@ -29,7 +33,7 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Você acertou
+        {` ${router.query["name"]}, você acertou `}
           {' '}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
