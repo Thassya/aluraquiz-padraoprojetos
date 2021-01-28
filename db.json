@@ -8,7 +8,7 @@
             "image": "https://media.giphy.com/media/JOjqPAASGZiZ4ZoaIL/giphy.gif",
             "title": "A programação reativa, abordagem que está em crescente adoção para o desenvolvimento de aplicações Web e Mobile, tem seu principal conceito centrado em um padrão de projeto. Assinale a alternativa que identifica esse padrão.",
             "description": "Essa é pra aquecer",
-            "answer": 2,
+            "answer": 1,
             "alternatives": [
                 "Adapter",
                 "Observer ",
@@ -20,7 +20,7 @@
             "image": "https://picsum.photos/id/1010/500/300",
             "title": "Os padrões de projeto (Design Patterns) são classificados nas categorias:",
             "description": "Tá esquentando",
-            "answer": 4,
+            "answer": 3,
             "alternatives": [
                 "Situacional. Estrutural. Complementar.",
                 "Criacional. Evolutiva. Contingencial.",
@@ -32,7 +32,7 @@
             "image": "https://picsum.photos/id/101/500/300",
             "title": "Assinale a alternativa que apresenta somente padrões estruturais",
             "description": "Um tiquinho a mais...",
-            "answer": 4,
+            "answer": 3,
             "alternatives": [
                 "Adapter, Bridge, Command, Decorator e Template.",
                 "Adapter, Command, Flyweight, Observer e Proxy.",
@@ -44,7 +44,7 @@
             "image": "https://picsum.photos/id/1015/500/300",
             "title": "Qual padrão não é classificado como Estrutural? ",
             "description": "Tá melhorando",
-            "answer": 4,
+            "answer": 3,
             "alternatives": [
                 "Bridge",
                 "Proxy",
@@ -56,7 +56,7 @@
             "image": "https://picsum.photos/id/1025/500/300",
             "title": "Qual padrão não é classificado como Criacional? ",
             "description": "Tá melhorando",
-            "answer": 2,
+            "answer": 1,
             "alternatives": [
                 "Abstract Factory",
                 "State",
@@ -68,7 +68,7 @@
             "image": "https://picsum.photos/id/103/500/300",
             "title": "Qual padrão não é classificado como Comportamental?",
             "description": "Tá melhorando",
-            "answer": 3,
+            "answer": 2,
             "alternatives": [
                 "State",
                 "Strategy",
