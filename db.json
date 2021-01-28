@@ -3,7 +3,7 @@
     "title": "Quiz Padrão de Projetos",
     "url": "https://quiz-padrao-projetos.thassya.vercel.app/",
     "description": "Teste seus conhecimentos em padrões de projetos! Aprenda de forma dinâmica.",
-    "metadataimg": "https://vercel.com/33a5d764-06e3-4a42-baea-1d4cfe1056e6",
+    "metadataimg": "https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png",
     "questions": [
         {
             "image": "https://media.giphy.com/media/JOjqPAASGZiZ4ZoaIL/giphy.gif",
