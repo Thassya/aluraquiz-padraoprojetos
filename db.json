@@ -79,7 +79,11 @@
         }
     ],
     "external": [
-        ""
+        "https://quiz-star-wars.mattheussal.vercel.app/",
+        "https://aluraquiz-base.holzlsauer.vercel.app/",
+        "https://typequiz.caducarvalho.vercel.app/"
+
+
     ],
     "theme":{
         "colors": {

@@ -11,6 +11,7 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
+import Link from '../src/components/Link';
 
 
 export default function Home() {
@@ -49,8 +50,23 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
-
-            <p>lorem ipsum dolor sit amet...</p>
+            <ul>
+            {db.external.map((linkExterno)=>{
+              //desafio melhorar o regeX
+              //e fazer funcionar com a url do github! 
+              const [nomeProjeto, usuario]  = 
+              linkExterno.replace('/\//g', '').repeat('https:', '').replace('.vercel.app', '').split('.'); 
+              return(
+                <li key={linkExterno}>
+                  <Widget.Topic 
+                    as={Link}
+                    href={`/quiz/${nomeProjeto}___${usuario}`}>                    
+                    {`${usuario} / ${nomeProjeto}`}
+                  </Widget.Topic>
+                </li>
+              );
+            })}
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />
