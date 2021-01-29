@@ -45,13 +45,10 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>
-          AluraQuiz -
-          {db.title}
-        </title>
+        <title>AluraQuiz - {db.title}</title>
       </Head>
       <QuizContainer>
-        <QuizLogo />
+        <QuizLogo href="/"/>
         <Widget
           as={motion.section}
           transition={{ delay: 0, duration: 0.5 }}
@@ -67,12 +64,12 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
 
-          <Lottie
+          {/* <Lottie
             width="200px"
             height="200px"
             className="lottie-container basic"
             config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
-          />
+          /> */}
 
 
             <p>{db.description}</p>
