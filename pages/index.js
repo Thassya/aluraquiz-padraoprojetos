@@ -14,6 +14,10 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 
+import { Lottie } from '@crello/react-lottie';
+
+import loadingAnimation from '../src/screens/Quiz/animations/890-loading-animation.json';
+
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
 //   flex: 1;
@@ -62,6 +66,15 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
+
+          <Lottie
+            width="200px"
+            height="200px"
+            className="lottie-container basic"
+            config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+          />
+
+
             <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
@@ -127,7 +140,7 @@ export default function Home() {
           animate="show"
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/Thassya/aluraquiz-padraoprojetos" />
     </QuizBackground>
   );
 }
