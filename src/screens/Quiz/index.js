@@ -18,7 +18,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado:
+        Result Screen:
       </Widget.Header>
 
       <Widget.Content>
@@ -66,7 +66,7 @@ function LoadingWidget() {
           width="200px"
           height="200px"
           className="lottie-container basic"
-          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+          config={{ animationData: loadingAnimation, loop: false, autoplay: true, }}
         />
       </Widget.Content>
     </Widget>
