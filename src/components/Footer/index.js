@@ -32,7 +32,7 @@ export default function Footer(props) {
       <a href="https://www.alura.com.br/">
         <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
       </a>
-      <p>
+      {/* <p>
         Orgulhosamente criado durante
         {' '}
         a
@@ -40,7 +40,13 @@ export default function Footer(props) {
         <a href="https://www.alura.com.br/">
           <span>Imersão React da Alura</span>
         </a>
+      </p> */}
+        <p>
+      Proudly created during
+      {' '}
+        <a href="https://www.alura.com.br/"> <span>Alura's React Immersion </span></a> 
       </p>
+
     </FooterWrapper>
   );
 }

@@ -1,84 +1,133 @@
 {
     "bg": "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-    "title": "Quiz Padrão de Projetos",
+    "title": "Quiz Design Patterns",
     "url": "https://quiz-padrao-projetos.thassya.vercel.app/",
-    "description": "Teste seus conhecimentos em padrões de projetos! Aprenda de forma dinâmica.",
+    "description": "Test your knowledge on Design Patterns! Learn dynamically.",
     "metadataimg": "https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png",
     "questions": [
         {
             "image": "https://media.giphy.com/media/JOjqPAASGZiZ4ZoaIL/giphy.gif",
-            "title": "A programação reativa, abordagem que está em crescente adoção para o desenvolvimento de aplicações Web e Mobile, tem seu principal conceito centrado em um padrão de projeto. Assinale a alternativa que identifica esse padrão.",
-            "description": "Essa é pra aquecer",
+            "title": "The Reactive programming has as its main concept a design pattern. Which one of the patterns below?",
+            "description": "getting start",
             "answer": 1,
             "alternatives": [
                 "Adapter",
                 "Observer ",
-                "Façade",
+                "Facade",
                 "Singleton"
             ]
         },        
         {
             "image": "https://picsum.photos/id/1010/500/300",
-            "title": "Os padrões de projeto (Design Patterns) são classificados nas categorias:",
-            "description": "Tá esquentando",
-            "answer": 3,
+            "title": "Which of the following is correct list of classifications of design patterns: ",
+            "description": "warming up",
+            "answer": 2,
             "alternatives": [
-                "Situacional. Estrutural. Complementar.",
-                "Criacional. Evolutiva. Contingencial.",
-                "Compartimental. Vinculada. Comportamental",
-                "Criacional. Estrutural. Comportamental."
+                "Creational, Executional and Behavioral patterns",
+                "Executional, Structural and Behavioral patterns",
+                "Creational, Structural and Behavioral patterns.",
+                "None of the above"
             ]
         },
         {
             "image": "https://picsum.photos/id/101/500/300",
-            "title": "Assinale a alternativa que apresenta somente padrões estruturais",
-            "description": "Um tiquinho a mais...",
-            "answer": 3,
+            "title": "Which of the below is not a valid design pattern?",
+            "description": "raising the temperature",
+            "answer": 2,
             "alternatives": [
-                "Adapter, Bridge, Command, Decorator e Template.",
-                "Adapter, Command, Flyweight, Observer e Proxy.",
-                "Composite, Decorator, Singleton, Template e Proxy.",
-                "Bridge, Composite, Decorator, Facade e Proxy."
+                "Singleton",
+                "Factory",
+                "Java",
+                "MVC"
             ]
         },
         {
             "image": "https://picsum.photos/id/1015/500/300",
-            "title": "Qual padrão não é classificado como Estrutural? ",
-            "description": "Tá melhorando",
-            "answer": 3,
+            "title": "Which design pattern provides a single class which provides simplified methods required by client and delegates call to those methods?",
+            "description": "almost there",
+            "answer": 2,
             "alternatives": [
-                "Bridge",
-                "Proxy",
-                "Facade ",
-                "Chain of Responsibility"
+                "Adapter pattern",
+                "Builder pattern",
+                "Facade pattern",
+                "Prototype pattern"
             ]
         },
         {
             "image": "https://picsum.photos/id/1025/500/300",
-            "title": "Qual padrão não é classificado como Criacional? ",
-            "description": "Tá melhorando",
+            "title": "Which design pattern ensures that only one object of particular class gets created?",
+            "description": "getting hot",
             "answer": 1,
             "alternatives": [
-                "Abstract Factory",
-                "State",
-                "Prototype",
-                "Singleton"
+                "Filter pattern",
+                "Singleton pattern",
+                "Bridge pattern",
+                "State pattern"
             ]
         },
         {
             "image": "https://picsum.photos/id/103/500/300",
-            "title": "Qual padrão não é classificado como Comportamental?",
-            "description": "Tá melhorando",
+            "title": "Which of the following pattern is used to reduce communication complexity between multiple objects or classes?",
+            "description": "improving",
+            "answer": 1,
+            "alternatives": [
+                "Iterator pattern",
+                "Mediator pattern",
+                "Memento pattern",
+                "Observer pattern"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/103/500/300",
+            "title": "Which design pattern represents a way to access all the objects in a collection?",
+            "description": "you are on fire",
+            "answer": 3,
+            "alternatives": [
+                "Facade pattern",
+                "Builder pattern",
+                "Bridge pattern",
+                "Iterator pattern"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/103/500/300",
+            "title": "Is design pattern a logical concept?",
+            "description": "getting to the end, come on",
+            "answer": 0,
+            "alternatives": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/103/500/300",
+            "title": "Which design pattern works on data and action taken based on data provided?",
+            "description": "can't belive you are almost there",
+            "answer": 0,
+            "alternatives": [
+                "Command pattern",
+                "Singleton pattern",
+                "MVC pattern",
+                "Facade pattern"
+            ]
+        },
+        {
+            "image": "https://picsum.photos/id/103/500/300",
+            "title": "Which of the following describes the Facade pattern correctly?",
+            "description": "you are the best. you rock it!",
             "answer": 2,
             "alternatives": [
-                "State",
-                "Strategy",
-                "Bridge",
-                "Interpreter"
+                "This pattern allows a user to add new functionality to an existing object without altering its structure",
+                "This pattern is used where we need to treat a group of objects in similar way as a single object",
+                "This pattern hides the complexities of the system and provides an interface to the client using which the client can access the system",
+                "This pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance"
             ]
         }
+
     ],
     "external": [
+        "https://aluraquiz-base.alura-challenges.vercel.app/",
+        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
         "https://quiz-star-wars.mattheussal.vercel.app/",
         "https://aluraquiz-base.holzlsauer.vercel.app/",
         "https://typequiz.caducarvalho.vercel.app/"
@@ -87,8 +136,8 @@
     ],
     "theme":{
         "colors": {
-            "primary": "#0d47a1",
-            "secondary":"#29b6f6",
+            "primary": "#40376E", 
+            "secondary":"#A84774",
             "mainBg": "#171B35",
             "contrastText": "#fff",
             "wrong": "#FF5722",
