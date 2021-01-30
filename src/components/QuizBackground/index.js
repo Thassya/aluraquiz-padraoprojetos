@@ -18,7 +18,7 @@ const QuizBackground = styled.div`
         url(${({ backgroundImage }) => backgroundImage});
       display: block;
       width: 100%;
-      height: 313px;
+      height: 350px;
       position: absolute;
       top: 0;
       left: 0;
