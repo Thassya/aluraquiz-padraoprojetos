@@ -3,7 +3,7 @@
     "title": "Quiz Design Patterns",
     "url": "https://quiz-padrao-projetos.thassya.vercel.app/",
     "description": "Test your knowledge on Design Patterns! Learn dynamically.",
-    "metadataimg": "https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png",
+    "screenshot": "https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/public/bg.png",
     "questions": [
         {
             "image": "https://media.giphy.com/media/JOjqPAASGZiZ4ZoaIL/giphy.gif",

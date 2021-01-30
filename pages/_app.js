@@ -43,20 +43,20 @@ export default function App({ Component, pageProps }) {
       <meta property="og:url" content={db.url} />
       <meta property="og:title" content={db.title} />
       <meta property="og:description" content={db.description} />
-      <meta property="og:image" content="https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png" />
+      <meta property="og:image" content={db.screenshot} />
 
       {/* <!-- Twitter --> */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={db.url} />
       <meta property="twitter:title" content={db.title} />
       <meta property="twitter:description" content={db.description} />
-      <meta property="twitter:image" content="https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png" />
+      <meta property="twitter:image" content={db.screenshot} />
 
       
         <meta property="og:url" content={db.url} />
         <meta property="og:title" content={db.title} />
         <meta property="og:description" content={db.description} />
-        <meta property="og:image" content="https://raw.githubusercontent.com/Thassya/aluraquiz-padraoprojetos/main/bg.png" />  
+        <meta property="og:image" content={db.screenshot} />  
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />    
